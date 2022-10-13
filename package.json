@@ -1,0 +1,28 @@
+{
+  "name": "proyecto-dwec-antonio-alfonso-gonzalez-rodriguez",
+  "version": "1.0.0",
+  "description": "Proyecto desarroyo web entorno cliente",
+  "main": "/app/assets/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonioalfonsogr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Antonio Alfonso Gonzalez Rodriguez",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/antonioalfonsogr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez/issues"
+  },
+  "homepage": "https://github.com/antonioalfonsogr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez#readme",
+  "dependencies": {
+    "jest": "^29.1.2"
+  }
+}
