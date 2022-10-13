@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/antonioalfonsogr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez#readme",
   "dependencies": {
-    "jest": "^29.1.2"
+    "jest": "^29.1.2",
+    "live-server": "^1.2.2"
   }
 }

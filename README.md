@@ -30,3 +30,6 @@ test
 
 ## Instalamos la libreria de test unitarios JEST.
 `npm install jest`
+
+## Instalamos el servidor ligero para ver los html
+`npm install live-server`
