@@ -19,9 +19,9 @@
   "author": "José Ramón Ruiz Romero",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/alumjruizr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez/issues"
+    "url": "https://github.com/alumjruizr/proyecto-dwec-jose-ramon-ruiz-romero/issues"
   },
-  "homepage": "https://github.com/alumjruizr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez#readme",
+  "homepage": "https://github.com/alumjruizr/proyecto-dwec-jose-ramon-ruiz-romero#readme",
   "dependencies": {
     "jest": "^29.1.2",
     "light-server": "^2.9.1",
