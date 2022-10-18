@@ -1,16 +1,16 @@
-# proyecto-dwec-antonio-alfonso-gonzalez-rodriguez
+# proyecto-dwec-jose-ramon-ruiz-romero
 
 ## Inicialización del proyecto node.js
 `npm init`
 
-package name: (proyecto-dwec-antonio-alfonso-gonzalez-rodriguez) 
+package name: (proyecto-dwec-jose-ramon-ruiz-romero) 
 version: (1.0.0) 
 description: Proyecto desarroyo web entorno cliente
 entry point: (index.js) 
 test command: jest --coverage
-git repository: (https://github.com/antonioalfonsogr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez.git) 
+git repository: (https://github.com/alumjruizr/proyecto-dwec-jose-ramon-ruiz-romero.git) 
 keywords: node,javascript,html,css
-author: Antonio Alfonso Gonzalez Rodriguez
+author: José Ramón Ruiz Romero
 license: (ISC) UNLICENSED
 
 ## Instalar dependencias node.js
