@@ -1,5 +1,5 @@
 {
-  "name": "proyecto-dwec-antonio-alfonso-gonzalez-rodriguez",
+  "name": "proyecto-dwec-jose-ramon-ruiz-romero",
   "version": "1.0.0",
   "description": "Proyecto desarroyo web entorno cliente",
   "main": "/app/assets/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antonioalfonsogr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez.git"
+    "url": "git+https://github.com/alumjruizr/proyecto-dwec-jose-ramon-ruiz-romero.git"
   },
   "keywords": [
     "node",
@@ -16,14 +16,15 @@
     "html",
     "css"
   ],
-  "author": "Antonio Alfonso Gonzalez Rodriguez",
+  "author": "José Ramón Ruiz Romero",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/antonioalfonsogr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez/issues"
+    "url": "https://github.com/alumjruizr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez/issues"
   },
-  "homepage": "https://github.com/antonioalfonsogr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez#readme",
+  "homepage": "https://github.com/alumjruizr/proyecto-dwec-antonio-alfonso-gonzalez-rodriguez#readme",
   "dependencies": {
     "jest": "^29.1.2",
+    "light-server": "^2.9.1",
     "live-server": "^1.2.2"
   }
 }
