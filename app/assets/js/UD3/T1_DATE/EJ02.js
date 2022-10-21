@@ -1,8 +1,8 @@
-/*Crea un programa que pida por parámetro tu cumpleaños (no hace falta el año) 
+/*Crea un programa que pida por parámetro tu cumpleaños (no hace falta el año)
 y saque todos los años en que tu cumpleaños va a caer en domingo desde este año hasta el año 2100.
 Recuerda que los meses empiezan desde el número 0.*/
 
-const argumentos = process.argv.slice(2);
+const argumentos = process.arg0v.slice(2);
 console.log("Introduzca el día y mes de su cumpleaños: (DD MM)", argumentos);
 let birthday = argumentos[0,1];
 
@@ -14,8 +14,9 @@ year = year.getFullYear();
 //Bucle para comprobar en qué años el cumpleaños cae en domingo.
 while (year <= finalYear) {
 
-    let yearToCheck = new Date(year, birthday[1], birthday[0]);
+    let yearToCheck = new Date(year, 10, 27);
 
+    //Con esta linea mostraremos el resultado en el log.
     if (yearToCheck.getDay() === 2) console.log(year)
 
     year++;

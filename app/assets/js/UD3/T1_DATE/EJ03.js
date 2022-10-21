@@ -6,6 +6,7 @@ Jueves, 15 de octubre de 2020.
 Thursday, October 15, 2020.
 */
 
+//Declaramos la variable que nos permitirá elegir el formato fecha.
 const argumentos = process.argv.slice(2);
 console.log("Cómo quiere visualizar la fecha: " + "\n" 
 + "1) 15/10/2020 " + "\n" 
@@ -13,6 +14,7 @@ console.log("Cómo quiere visualizar la fecha: " + "\n"
 + "3) Thursday, October 15, 2020", argumentos);
 let dateType = argumentos[0];
 
+//Variable que guarda el día de hoy.
 let today = new Date();
 
 (dateType === "1") ? console.log(numericDate(today)) : 
@@ -20,11 +22,13 @@ let today = new Date();
 (dateType === "3") ? console.log(englishDate(today)) :
 console.log("No ha elegido un formato correcto.")
 
+//Función que genera la fecha en el formato numérico.
 function numericDate(today) {
     let actualMonth = today.getMonth() + 1; 
     return today.getDate() + "/" + actualMonth + "/" + today.getFullYear(); 
 }
 
+//Función que genera la fecha en español.
 function spanishDate(today) {
 
     let spanishDay;
@@ -97,6 +101,7 @@ function spanishDate(today) {
 
 }
 
+//Función que genera la fecha en inglés.
 function englishDate(today) {
 
     let englishDay;
