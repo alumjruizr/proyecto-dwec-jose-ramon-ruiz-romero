@@ -8,11 +8,11 @@ El número en hexadecimal.*/
 
 //Pedimos el número decimal
 const argumentos = process.argv.slice(2);
-console.log("Introduzca un número decimal", argumentos);
-let decimalNumber = parseFloat(argumentos[0]);
+console.log("Introduzca un número entero", argumentos);
+let userNumber = argumentos[0];
 
 //Mostramos por consola las llamadas a las funciones
-console.log(exponentialNumber(decimalNumber) + "/" + fourDecimalsNumber(decimalNumber) + "/" + toBinary(decimalNumber) + "/" + toOctal(decimalNumber) + "/" + toHexadecimal(decimalNumber))
+console.log(exponentialNumber(userNumber) + "/" + fourDecimalsNumber(userNumber) + "/" + toBinary(userNumber) + "/" + toOctal(userNumber) + "/" + toHexadecimal(userNumber))
 
 //Funcion para sacar el exponencial
 function exponentialNumber(decimal) {
