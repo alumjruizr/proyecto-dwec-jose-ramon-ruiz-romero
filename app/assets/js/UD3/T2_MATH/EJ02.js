@@ -13,7 +13,7 @@ console.log("Introduzca el radio", argumentos);
 let radius = argumentos[0];
 
 //Mostramos por consola las llamadas a las funciones
-console.log(radius + "/" + calculateDiameter(radius) + "/" + calculatePerimeter(radius) + "/" + calculateCircleArea(radius) + "/" + calculateSphereArea(radius) + "/" + calculateSphereVolume())
+console.log(radius + "/" + calculateDiameter(radius) + "/" + calculatePerimeter(radius) + "/" + calculateCircleArea(radius) + "/" + calculateSphereArea(radius) + "/" + calculateSphereVolume(radius))
 
 //Función para calcular el radio
 function calculateDiameter(radius) {
@@ -22,7 +22,7 @@ function calculateDiameter(radius) {
 
 //Función para calcular el perimetro
 function calculatePerimeter(radius) {
-    return (Math.PI * calculateDiameter(radius)) + "cm";
+    return (Math.PI * parseInt(calculateDiameter(radius))) + "cm";
 }
 
 //Función para caluclar el area del circulo
@@ -32,10 +32,10 @@ function calculateCircleArea(radius) {
 
 //Función para calcular el área de la esfera
 function calculateSphereArea(radius) {
-    return (calculateCircleArea(radius) * 4) + "cm2";
+    return (parseInt(calculateCircleArea(radius)) * 4) + "cm2";
 }
 
 //Funcion para calcular el volumen de una esfera
 function calculateSphereVolume(radius) {
-    return((4/3) * Math.PI * Math.pow(radius, 3)) + "cm3";
+    return ((4 / 3) * Math.PI * Math.pow(radius, 3)) + "cm3";
 }

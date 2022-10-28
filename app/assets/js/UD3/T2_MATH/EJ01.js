@@ -19,30 +19,26 @@ console.log("Elija una opción: " + "\n"
     + "2) Raíz" + "\n"
     + "3) Redondeo" + "\n"
     + "4) Trigonometria", argumentos);
-let mathOption = argumentos[0];
+let mathOption = argumentos[0, 1, 2];
 
 //Condicional para elegir la opción.
-if (mathOption === 1) {
-    let argumentos = process.argv.slice(2);
-    console.log("Introduzca la base y el exponente:", argumentos);
-    let exponent = argumentos[0,1];
-    console.log("La potencia de " + argumentos[0] + " elevado a " + argumentos[1] + " es " + Math.pow(argumentos[0], argumentos[1]));
-} else if (mathOption === 2) {
-    let argumentos = process.argv.slice(2);
-    console.log("Introduzca un numero no negativo", argumentos);
-    let squareRootNumber = argumentos[0];
-    (squareRootNumber > 0) ? console.log("La raíz cuadrada de " + argumentos[0] + " es " + Math.sqrt(squareRootNumber))
+if (argumentos[0] === '1') {
+    console.log("Introduzca la base y el exponente:");
+    let exponent = argumentos[1, 2];
+    console.log("La potencia de " + argumentos[1] + " elevado a " + argumentos[2] + " es " + Math.pow(parseInt(argumentos[1]), parseInt(argumentos[2])));
+} else if (argumentos[0] === '2') {
+    console.log("Introduzca un numero no negativo:");
+    let squareRootNumber = argumentos[1];
+    (squareRootNumber > 0) ? console.log("La raíz cuadrada de " + argumentos[1] + " es " + Math.sqrt(argumentos[1]))
     : console.log("Ese número es negativo.");
-} else if (mathOption === 3) {
-    let argumentos = process.argv.slice(2);
-    console.log("Introduzca un número decimal", argumentos);
-    let decimal = parseFloat(argumentos[0]);
+} else if (argumentos[0] === '3') {
+    console.log("Introduzca un número decimal:");
+    let decimal = parseFloat(argumentos[1]);
     console.log("El entero más próximo es " + Math.round(decimal) + ", el redondeo hacia arriba es " + Math.ceil(decimal) + ", y el redondeo hacia abajo es " + Math.floor(decimal));
-} else if (mathOption === 4) {
-    let argumentos = process.argv.slice(2);
-    console.log("Introduzca un ángulo entre 0 y 360 grados", argumentos);
-    let angle;
-    if (argumentos[0] >= 0 && argumentos[0] <= 360) angle = argumentos[0];
+} else if (argumentos[0] === '4') {
+    console.log("Introduzca un ángulo entre 0 y 360 grados:");
+    let angle = argumentos[1];
+    if (argumentos[1] >= 0 && argumentos[1] <= 360) angle = argumentos[1];
     console.log("El seno de " + angle + " es " + Math.sin(angle) + ", su coseno es " + Math.cos(angle) + ", y su tangente es " + Math.tan(angle))
 }
 
