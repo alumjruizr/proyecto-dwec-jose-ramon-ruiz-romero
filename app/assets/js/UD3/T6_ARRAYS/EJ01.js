@@ -43,3 +43,19 @@ function showElementsGroup(array, firstNumber, lastNumber) {
     return array.slice(firstNumber, lastNumber)
 }
 
+
+let paises = ["Cánada", "Bulgaria", "Azerbayan", "Togo", "Antigua y Barbura", "Nueva Zelanda", "El Salvador", "República Democráctica del Congo", "República de Irlanda", "Uruguay"];
+
+let userOption = prompt("Elija una de las siguientes opciones:" + "\n"
+        + "1) Mostrar el número de países." + "\n"
+        + "2) Mostrar lista de países." + "\n"
+        + "3) Mostrar un intervalo de países." + "\n"
+        + "4) Añadir un país." + "\n"
+        + "5) Borrar un pañis." + "\n"
+        + "6) Consultar un país");
+
+if (userOption === '1') {
+    alert("La base de datos contiene " + array.numberOfElements + " países.")
+} else if (userOption === 2) {
+    prompt()
+}
